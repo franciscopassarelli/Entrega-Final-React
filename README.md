@@ -36,11 +36,14 @@
 ### Uso de la App
 #### La tienda esta compuesta por : <p>"tres botones donde fácilemnte podras acceder a tus compras"</p>
 
+
 #### Por ejemplo:
 
 <i>|| FranTenis || - - - - - - - | Raquetas | Indumentaria | Accesorios |</i> 
 <br>
 <p>Al clickear uno de esos botones allí podras iniciar el proceso de tu elección de productos y su cantidad, para volver a empezar solo deberás hacer click en Tenis. Y no te olvides de cargar tus datos a lo ultimo para finalizar tu cómpra! </p>
+
+### Inicia la pagina con: npm start (en caso de estar parado en la carpeta Proyectos deberás hacer: cd ecommerce luego npm start y funcionará.
 
 ### Gracias FranTenis!🪐
 
