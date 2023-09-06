@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.NotFound {
+  color: chocolate; 
+  text-decoration: underline; 
+  font-family: 'TuFuentePreferida', sans-serif;
+  text-shadow: 2px 2px 4px rgba(82, 80, 80, 0.712); 
+}
+
+

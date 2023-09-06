@@ -1,0 +1,51 @@
+.CheckoutContainer {
+    background-color: #f4f4f4; 
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .CheckoutTitle {
+    font-size: 24px;
+    color: #333; 
+    margin-bottom: 20px;
+  }
+  
+  .LoadingStyle, .OrderStyle {
+    font-size: 20px;
+    color: #333; 
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .LoadingStyle {
+    font-weight: bold;
+  }
+  
+  .OrderStyle {
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #333; 
+    background-color: #f0f0f0; 
+    padding: 10px 20px; 
+    border: 2px solid #00bcd4; 
+    border-radius: 5px; 
+    display: inline-block; 
+
+  }
+
+  .CheckoutStyle {
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #333; 
+    background-color: #f0f0f0; 
+    padding: 10px 20px; 
+    border: 2px solid #00bcd4; 
+    border-radius: 5px;
+    display: inline-block;
+
+  }
+
+
+  

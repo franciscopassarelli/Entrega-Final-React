@@ -1,0 +1,11 @@
+
+.ListGroup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+  }
+
+  .ItemGroup{
+    margin: 10px;
+  }
+  

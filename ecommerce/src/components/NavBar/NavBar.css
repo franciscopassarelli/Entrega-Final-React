@@ -25,7 +25,7 @@
 
 
 .Option:hover{
-  color: #ff9900;
+  color:#00bcd4;
 }
 
 
@@ -37,7 +37,7 @@
     text-decoration: none;
     border-radius: 4px;
     transition: background-color 0.3s ease;
-  color: #ff9900;
+  color:#00bcd4;
   font-weight: bold;
 }
 

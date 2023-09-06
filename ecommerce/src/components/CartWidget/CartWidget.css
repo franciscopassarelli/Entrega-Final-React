@@ -1,12 +1,15 @@
-.Numero {
-    display: flex;
-    align-items: center;
-    color: white; /* Cambiar el color del número a blanco */
-    font-size: 2rem;
-  
-    
-  }
+.CartWidget {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fbf6f6;
+}
 
+.CartWidget:hover {
+  opacity: 0.8;
+}
 
-
-
+.CartImg {
+  height: 44px;
+  margin-right: 5px;
+}

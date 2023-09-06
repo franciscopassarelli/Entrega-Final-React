@@ -1,0 +1,80 @@
+
+  
+  .Button {
+    background-color: #01494d; 
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .Button:hover {
+   background-color:#007a81;
+  }
+  
+  
+
+
+
+
+  .ItemNone{
+    color: #ec7e00;
+  }
+  
+  .TotalPrice{
+    background-color: #bba296; 
+    border: 1px solid #ddd; 
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+
+.BotonCheckout {
+  padding-top: 50px;
+  margin: auto;
+  text-align: center; 
+}
+
+
+.arrow-link {
+  background:#008aeca2;
+  padding: 15px;
+  border-radius: 30px;
+  text-decoration: none; 
+  color: #fff; 
+  font-size: 18px;
+  font-weight: bold;
+  position: relative;
+  display: inline-block; 
+}
+
+
+.arrow-link .arrow {
+  position: relative;
+  top: 2px;
+  margin-left: 5px; 
+  transition: margin-left 0.10s ease; 
+}
+
+
+.arrow-link:hover .arrow {
+  margin-left: 15px; 
+}
+
+
+.arrow-link:hover {
+  background-color: #06e8ec7e;
+}
+
+
+.ArrowLinkContainer {
+  margin-top: 20px; 
+}
