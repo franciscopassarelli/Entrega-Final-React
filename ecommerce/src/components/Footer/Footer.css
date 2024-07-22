@@ -1,0 +1,68 @@
+/* Footer.css */
+
+.footer {
+  background-color: #090909;
+  color: hsl(0, 0%, 100%);
+  padding: 10px; /* Reducimos el padding superior e inferior */
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem; /* Espacio entre elementos */
+}
+
+.footer-section {
+  flex: 1 1 50%; /* Flex: grow shrink basis */
+  max-width: 50%; /* Ancho máximo en dispositivos grandes */
+  padding: 10px;
+  text-align: center; /* Centrado en dispositivos pequeños */
+}
+
+.footer-logo {
+  font-size: 1.2rem; /* Reducimos el tamaño del logo */
+  font-weight: 700;
+  margin-bottom: 0.5rem; /* Reducimos el espacio inferior */
+}
+
+.footer-contact {
+  margin-bottom: 0.5rem; /* Reducimos el espacio inferior */
+}
+
+.footer-socials {
+  margin-top: 0.5rem; /* Reducimos el espacio superior */
+  text-align: center; /* Centrado en dispositivos pequeños */
+}
+
+.footer-socials a {
+  font-size: 1.2rem; /* Reducimos el tamaño de los íconos sociales */
+  margin: 0 0.3rem; /* Reducimos el espacio entre los íconos */
+}
+
+.footer-bottom {
+  margin-top: 1rem; /* Reducimos el espacio superior */
+  background-color: #000000;
+  padding: 0.5rem 0; /* Reducimos el padding superior e inferior */
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+  .footer-section {
+    flex: 1 1 100%; /* Ocupa todo el ancho en dispositivos pequeños */
+    max-width: 100%; /* Ancho máximo en dispositivos pequeños */
+    margin-bottom: 1rem; /* Espacio inferior entre secciones */
+  }
+
+  .footer-logo {
+    font-size: 1rem; /* Reducimos más el tamaño del logo en dispositivos móviles */
+  }
+
+  .footer-socials {
+    margin-top: 1rem; /* Aumentamos el espacio superior para separar los íconos sociales */
+  }
+}

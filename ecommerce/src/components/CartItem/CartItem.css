@@ -4,7 +4,7 @@
   border: 1px solid #ddd; 
   border-radius: 5px;
   padding: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -51,4 +51,28 @@
 
 .BotonEliminar:hover {
   background-color: #d32f2f; 
+}
+
+
+@media (max-width: 768px) {
+  .CartItem {
+    flex-direction: row; /* Volver a diseño de fila en dispositivos móviles */
+    align-items: center; /* Centrar elementos en dispositivos móviles */
+  }
+
+  .TituloCartItem {
+    font-size: 14px; /* Reducimos el tamaño del título en dispositivos móviles */
+    margin-right: 10px; /* Espacio entre el título y los otros elementos */
+  }
+
+  .PrecioItem,
+  .CantidadItem,
+  .SubtotalItem {
+    font-size: 12px; /* Reducimos el tamaño de texto para otros elementos en dispositivos móviles */
+  }
+
+  .BotonEliminar {
+    padding: 3px 8px; /* Reducimos el padding del botón en dispositivos móviles */
+    font-size: 10px; /* Reducimos el tamaño de fuente del botón en dispositivos móviles */
+  }
 }

@@ -1,80 +1,97 @@
+/* Estilos responsivos para el componente */
 
-  
-  .Button {
-    background-color: #01494d; 
-    color: #fff; 
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 10px;
-    font-size: 16px;
-  }
-  
-  .Button:hover {
-   background-color:#007a81;
-  }
-  
-  
-
-
-
-
-  .ItemNone{
-    color: #ec7e00;
-  }
-  
-  .TotalPrice{
-    background-color: #bba296; 
-    border: 1px solid #ddd; 
-    border-radius: 5px;
-    padding: 10px;
-    margin-bottom: 10px;
-    display: block;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-
-
-.BotonCheckout {
-  padding-top: 50px;
-  margin: auto;
-  text-align: center; 
+.Button {
+  background-color: #01494d;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 16px;
 }
 
+.Button:hover {
+  background-color: #007a81;
+}
+
+.ItemNone {
+  color: #ec7e00;
+}
+
+.TotalPrice {
+  background-color: #bba296;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.BotonCheckout {
+  padding-top: 20px; /* Reducimos el espacio superior en dispositivos móviles */
+  margin: auto;
+  text-align: center;
+}
 
 .arrow-link {
-  background:#008aeca2;
+  background: #008aeca2;
   padding: 15px;
   border-radius: 30px;
-  text-decoration: none; 
-  color: #fff; 
+  text-decoration: none;
+  color: #fff;
   font-size: 18px;
   font-weight: bold;
   position: relative;
-  display: inline-block; 
+  display: inline-block;
 }
-
 
 .arrow-link .arrow {
   position: relative;
   top: 2px;
-  margin-left: 5px; 
-  transition: margin-left 0.10s ease; 
+  margin-left: 5px;
+  transition: margin-left 0.10s ease;
 }
-
 
 .arrow-link:hover .arrow {
-  margin-left: 15px; 
+  margin-left: 15px;
 }
-
 
 .arrow-link:hover {
   background-color: #06e8ec7e;
 }
 
-
 .ArrowLinkContainer {
-  margin-top: 20px; 
+  margin-top: 20px;
+}
+
+.CheckEstilos {
+  margin: 10px; /* Reducimos el margen en dispositivos móviles */
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+  .Button {
+    padding: 8px 16px; /* Reducimos el padding para botones en dispositivos móviles */
+    font-size: 10px; /* Reducimos el tamaño de fuente para botones en dispositivos móviles */
+  }
+
+  .BotonCheckout {
+    padding-top: 10px; /* Reducimos más el espacio superior */
+  }
+
+  .arrow-link {
+    padding: 12px; /* Reducimos el padding para enlaces con flecha en dispositivos móviles */
+    font-size: 12px; /* Reducimos el tamaño de fuente para enlaces con flecha en dispositivos móviles */
+  }
+
+  .ArrowLinkContainer {
+    margin-top: 10px; /* Reducimos el espacio superior para contenedor de enlaces con flecha */
+  }
+
+  .CheckEstilos {
+    margin: 5px; /* Reducimos más el margen en dispositivos móviles */
+  }
 }
