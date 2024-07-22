@@ -1,9 +1,9 @@
 .ItemListContainer {
-    background-color: #1a1a1a;
+    background-color: #000000;
     color: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 8px rgba(91, 86, 86, 0.871);
     text-align: center;
     margin: 20px;
   }
@@ -25,4 +25,26 @@
     display: inline-block; 
   }
   
-  
+  /* Estilo para el mensaje de carga */
+.LoadingMessage {
+  font-size: 20px;
+  color: #888;
+  margin-top: 20px;
+}
+
+/* Estilo para la animación de carga */
+@keyframes pulse {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+.PulseAnimation {
+  animation: pulse 1.5s infinite;
+}
